@@ -1,0 +1,59 @@
+
+*{
+    margin: 0%;
+    background: rgb(247, 225, 152);
+    
+}
+
+.banner{
+    display: flex;
+    padding: 0;
+    background: rgb(186, 170, 255);
+    height: 50px;
+    width: 100% ;
+    
+}
+
+.icone1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(186, 170, 255);
+}
+.nome1{
+    margin-top: 8px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(186, 170, 255) ;
+    color: black;
+}
+menu{
+  box-shadow: none;
+  border: none;
+}
+   .menu1 {
+    background-color: rgb(186, 170, 255);
+    position: relative;
+    display: inline-block; 
+    position: absolute;
+    left: 95%;
+  
+}
+      .menu1 .menu1-text {
+       visibility: hidden;
+       display: table-column;
+       width: 150px;
+        background-color: rgb(247, 225, 152);
+        color: rgb(0, 0, 0);
+        padding: 6px ;
+        border-radius: 6px;
+        position: absolute;
+        right: 20%;
+  
+  }
+  
+      .menu1:hover .menu1-text {
+        visibility: visible;
+  }
+ .cadastro{
+   border: none;
+   display: center;
+ }
