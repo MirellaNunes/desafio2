@@ -1,14 +1,14 @@
 
 *{
     margin: 0%;
-    background: rgb(247, 225, 152);
+    background: #F1F0D4;
     
 }
 
 .banner{
     display: flex;
     padding: 0;
-    background: rgb(186, 170, 255);
+    background: #D58FF0;
     height: 50px;
     width: 100% ;
     
@@ -17,43 +17,69 @@
 .icone1{
     height: 50px;
     width: 50px;
-    background-color: rgb(186, 170, 255);
+    background-color: #D58FF0;
 }
 .nome1{
+    margin-left: 30px;
     margin-top: 8px;
     font-family: 'Dancing Script', cursive;
-    background-color: rgb(186, 170, 255) ;
-    color: black;
+    background-color: #D58FF0 ;
+    color: rgba(22, 21, 21, 0.938);
 }
-menu{
+.menu{
   box-shadow: none;
   border: none;
+  background-color: #D58FF0;
 }
+  .menu1img{
+    width: 44px;
+    background-color: #D58FF0;
+  }
    .menu1 {
-    background-color: rgb(186, 170, 255);
+    background-color: #D58FF0;
     position: relative;
     display: inline-block; 
     position: absolute;
-    left: 95%;
+    left: 94%;
   
 }
       .menu1 .menu1-text {
-       visibility: hidden;
-       display: table-column;
-       width: 150px;
-        background-color: rgb(247, 225, 152);
-        color: rgb(0, 0, 0);
+        visibility: hidden;
+        display: table-column;
+        width: 150px;
+        background-color: #BD5E8F;
         padding: 6px ;
         border-radius: 6px;
         position: absolute;
         right: 20%;
+        top: 50px;
+        box-shadow: #8A1C55 2px 2px 3px;
   
   }
   
       .menu1:hover .menu1-text {
         visibility: visible;
+
   }
+.numero{
+  background-color: #BD5E8F;
+}
+  .numeroicon{
+    background-color: #BD5E8F;
+  }
+.instagram{
+  background-color: #BD5E8F;
+}
+  .instagramicon{
+    background-color: #BD5E8F;
+  }
+
  .cadastro{
-   border: none;
-   display: center;
+    margin-right: 30px;
+    background-color: #BD5E8F;
+    border: none;
+    
  }
+  .cadastroicon{
+    background-color: #BD5E8F;
+  }
