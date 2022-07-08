@@ -10,18 +10,19 @@
     display: flex;
     padding: 0;
     background: #D58FF0;
-    height: 50px;
+    height: 60px;
     width: 100% ;
     
 }
 
-
 .icone1{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     background-color: #D58FF0;
 }
+
 .nome1{
+    font-size: 35px;
     margin-left: 10px;
     margin-top: 17px;
     font-family: 'Dancing Script', cursive;
@@ -31,9 +32,8 @@
 .sobre{
   text-decoration: none;
   font-family: 'Dancing Script' ;
-  font-size: 20px;
-  color: black;
-  margin-left: 17%;
+  font-size: 35px;
+  margin-left: 6%;
   margin-top: 17px;
   background-color: #D58FF0;
 }
@@ -43,7 +43,7 @@
   background-color: #D58FF0;
 }
   .menu1img{
-    width: 44px;
+    width: 55px;
     background-color: #D58FF0;
   }
    .menu1 {
@@ -51,7 +51,7 @@
     position: relative;
     display: inline-block; 
     position: absolute;
-    left: 94%;
+    left: 95%;
   
 }
       .menu1 .menu1-text {
@@ -83,13 +83,13 @@
 }
   .instagramicon{
     background-color: #BD5E8F;
-  }
-
- .cadastro{
-    margin-right: 30px;
+    color: black;
     background-color: #BD5E8F;
     border: none;
-    
+   } 
+ .cadastro{
+   background-color: #BD5E8F;
+   border: none;
  }
   .cadastroicon{
     background-color: #BD5E8F;
@@ -97,31 +97,37 @@
   .cadastro:hover{
     cursor: pointer;
   }
-
-.Qmss{
- 
-  margin-left: 11%;
-  margin-top: 3%;
-  font-family:  'Dancing Script', cursive;
+.Qms{
+  margin-top: 35px;
 }
+
+.img{ 
+  margin-top: 5px;
+  border-radius: 30px;
+  margin-left: 30px;
+  width: 450px;
+  top: 250px;
+  display: table-cell;
+  float: left;
+}
+
 .restaurante{
- 
   border: solid #BD5E8F 2px;
   border-radius: 50px;
+  width: 400px;
+  height: 300px;
   margin-left: 30px;
-  margin-top: 2px;
-  width: 300px;
-  height: 200px;
   box-shadow: #737265 2px 3px 3px;
   padding: none;
 }
-.teste{
-  border-radius: 30px;
-  width: 500px;
-  height: 250px;
-  
+
+.qs{
+  font-family: 'Dancing Script', cursive;
+  margin-top: 30px;
 }
-.QmssText{
-  
-  font-family:  'Dancing Script', cursive;;
+
+.descricao{
+  margin-right: 20% ;
+  font-size: 20px;
+  font-family: 'Crimson Text', serif; 
 }
